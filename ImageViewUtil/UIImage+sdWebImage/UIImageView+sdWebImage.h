@@ -30,7 +30,6 @@ typedef void(^DownloadImageProgressBlock)(CGFloat progress);
  @param imageName 水印名字
  @param success 成功
  @param failed 失败
- @param progress 进度
  */
 - (void)downloadImageWithProgress:(NSString *)url
                       placeholder:(NSString *)imageName
