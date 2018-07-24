@@ -48,7 +48,7 @@
         
             dispatch_async(dispatch_get_main_queue(), ^{
                
-                if (!pv) {
+                if (!pv&&!self.image) {
                     [weakImageView addSubview:pv = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:(UIActivityIndicatorViewStyleGray)]];
                     pv.size=CGSizeMake(20, 20);
                     pv.left= (weakImageView.width-pv.width)/2;
