@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UIImageView+IndicatorView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "用于网络加载图片,添加了菊花条。"
 
   # This description is used to generate tags and improve search results.
